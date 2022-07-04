@@ -1,46 +1,51 @@
-# [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Rainblur Landing Page Template](https://www.tailwindtoolbox.com/templates/rainblur-landing-page)
+# Codewell - Commune Waitlist Page
 
-[Rainblur Landing Page](https://www.tailwindtoolbox.com/templates/rainblur-landing-page) is an open source, dark mode and gradient based generic landing page or coming soon template for [Tailwind CSS](https://tailwindcss.com/) created by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).
+This is a solution to the [Commune Waitlist Page on Codewell](https://www.codewell.cc/challenges/commune-waitlist-page--608d9565747bad001532bd64).Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects.
 
-![Rainblur Landing Page](https://www.tailwindtoolbox.com/templates/rainblur-landing-page.png)
+## Table of contents
 
-
-## Getting Started
-
-Choose one of the following options to get started:
-* [Download the latest release](https://github.com/tailwindtoolbox/Rainblur-Landing-Page/archive/main.zip)
-* Clone the repo: `git clone https://github.com/tailwindtoolbox/Rainblur-Landing-Page.git`
-* Fork the repo
-
-## Using the Template
-
-The template is just a HTML file using a full CDN hosted Tailwind CSS file.
-
-To get the best out of Tailwind CSS, you need to really start customising it.
-Take a look at our [setup guide](https://www.tailwindtoolbox.com/setup) to start tweaking!
-
-## Sites created using this template
-
-* Add your site here :)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
 
-## Bugs and Issues
+## Overview
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/tailwindtoolbox/Rainblur-Landing-Page//issues/new) here on GitHub.
+### The challenge
 
-## Creator
+Users should be able to:
 
-[Tailwind Toolbox](https://www.tailwindtoolbox.com/) was created by and is maintained by **[Amrit Nagi](https://amritnagi.info/)**, Co-owner of [Astrava.Solutions](https://astrava.solutions).
+- View the optimal layout for the app depending on their device's screen size
 
-* https://twitter.com/tailwindtoolbox
-* https://twitter.com/amritnagi
-* https://github.com/tailwindtoolbox
+<!-- ### Screenshot
 
-Tailwind Toolbox is based on the [Tailwind CSS](https://www.tailwindcss.com/) framework created by [Adam Wathan](https://twitter.com/adamwathan), [Jonathan Reinink](https://twitter.com/reinink), [David Hemphill](https://twitter.com/davidhemphill) and [Steve Schoger](https://twitter.com/steveschoger)
+![](./screenshot.jpg) -->
 
 
+### Links
+
+- Solution URL: [https://www.codewell.cc/challenges/commune-waitlist-page--608d9565747bad001532bd64/solution/623417181fa95910c7bf9778](https://www.codewell.cc/challenges/commune-waitlist-page--608d9565747bad001532bd64/solution/623417181fa95910c7bf9778)
+- Live Site URL: [https://sanketcharanpahadi.github.io/commune-waitlist-page/](https://sanketcharanpahadi.github.io/commune-waitlist-page/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Mobile-first workflow
+- [Tailwind CSS](https://tailwindcss.com/) - CSS library
+
+### Continued development
+
+I want to continue using tailwind css for my projects.
+
+## Author
+
+<!-- - Website - [Add your name here](https://www.your-site.com) -->
+- Twitter - [@SanketK86551440](https://www.twitter.com/SanketK86551440)
 
 
-## Copyright and License
-
-Copyright 2018-2020 Astrava.Solutions Ltd. Code released under the MIT license.
