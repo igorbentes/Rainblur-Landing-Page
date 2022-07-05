@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Prisma - Em Breve</title>
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+
+      <!-- Font Awesome if you need it
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	-->
+
+      <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+      <!--Replace with your tailwind.css once created-->
+
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+   </head>
+
+   <body class="leading-normal tracking-normal text-gray-900" style="font-family: 'Source Sans Pro', sans-serif">
+      <!-- This example requires Tailwind CSS v2.0+ -->
+
+      <div class="backdrop-blur-xl bg-white content-center items-center text-center justify-self-center">
+         <main
+            class="min-h-screen bg-cover bg-top xl:bg-center sm:bg-top backdrop-blur-xl bg-white bg-blend-multiply items-center content-center"
+            style="
+               background-image: url(https://images.unsplash.com/photo-1597600159211-d6c104f408d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1939&q=80&exp=-15&con=15sat=0);
+            "
+         >
+            <div class="max-w-7xl mx-auto px-4 py-16 flex-grid grid-col-1 justify-self-center items-center content-center sm:px-6 sm:py-24 lg:px-8 lg:py-48">
+               <p class="text-sm font-semibold text-white uppercase tracking-wide">
+                  We are simplifying businesses' relationship with capital by helping them manage payments, liquidity and cash.
+               </p>
+               <h1 class="mt-2 text-4xl font-extrabold text-white tracking-tight sm:text-5xl">Join the list.</h1>
+               <p class="mt-2 text-lg font-medium text-white text-opacity-50"></p>
+                    <form name="submit-to-google-sheet">
+                            <div class="mb-2 max-w-xl">
+                                <input
+                                    name="email"
+                                    type="email"
+                                    placeholder="email@exemplo.com"
+                                    required
+                                    class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                                />
+                            <div>
+                            <div>
+                                <button
+                                        type="submit"
+                                        class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-black text-opacity-75 bg-white focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                                    >
+                                        Cadastrar
+                                    </button>
+                        </div>
+                    </form>
+            </div>
+         </main>
+      <script>
+         const scriptURL = "https://script.google.com/macros/s/AKfycbwY_mrUcA0o2lnoccqXYXj5FRt2J1CLsw9450rJqLM0NF7TVNKSybuovW5pMmxSmpt2Og/exec";
+         const form = document.forms["submit-to-google-sheet"];
+
+         form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            fetch(scriptURL, { method: "POST", body: new FormData(form) })
+               .then((response) => console.log("Success!", response))
+               .catch((error) => console.error("Error!", error.message));
+         });
+      </script>
+   </body>
+</html>
